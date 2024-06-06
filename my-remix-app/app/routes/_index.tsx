@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import logo from "../images/BeeLogo.png";
 
 export const meta: MetaFunction = () => {
   return [
@@ -9,10 +10,10 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-   <>
-   <h1 className="text-3xl font-bold underline text-red-700">
-      Hello world!
-    </h1>
-   </>
+    <>
+      <div className="flex justify-center items-center">
+        <img src={logo} alt="logo" className="w-[200px] h-auto"/>
+      </div>
+    </>
   );
 }
