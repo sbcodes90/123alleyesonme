@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
-import logo from "../images/BeeLogo.png";
+import logo from "../images/header.png";
+
 
 export const meta: MetaFunction = () => {
   return [
@@ -12,7 +13,8 @@ export default function Index() {
   return (
     <>
       <div className="flex justify-center items-center">
-        <img src={logo} alt="logo" className="w-[200px] h-auto"/>
+        <img src={logo} alt="logo" className="w-full" />
+    
       </div>
     </>
   );
