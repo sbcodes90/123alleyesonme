@@ -3,11 +3,11 @@ import header from "../images/about-image.png";
 function About() {
   return (
     <>
-        <section className=" bg-white grid lg:grid-cols-2 lg:px-20 py-20 gap-10 items-start">
+        <section className=" bg-cyan-200 grid lg:grid-cols-2 lg:px-20 py-20 gap-10 items-start">
         <div className="w-full block md:hidden lg:hidden">
           <img src={header} alt="vision" />
         </div>
-        <div className="border-black border-solid border-2  rounded-3xl w-full p-20 lg:p-20">
+        <div className="bg-white border-black border-solid border-2  rounded-3xl w-full p-20 lg:p-20">
           <div className="font-bold pb-5 text-2xl text-left">Mission</div>
           <div>
             <div className="pb-5 text-lg font-semibold">
@@ -29,8 +29,8 @@ function About() {
           <img src={header} alt="vision" />
         </div>
       </section>
-      <section className="bg-yellow-500 p-10 lg:p-32">
-        <div className="bg-white lg:h-[700px] p-10 lg:p-20 rounded-3xl shadow-2xl ">
+      <section className="bg-yellow-400 p-10 lg:p-32">
+        <div className="bg-white lg:h-[700px] p-10 lg:p-20 rounded-3xl shadow-2xl border-black border-4 ">
           <div className="text-black text-center font-bold text-2xl pb-5">About</div>
           <div className="text-black text-left text-lg px-5 lg:px-32">
             <div className="text-center pb-5 font-bold">My name is Brandi White AKA Your Favorite Math Teacher! </div>

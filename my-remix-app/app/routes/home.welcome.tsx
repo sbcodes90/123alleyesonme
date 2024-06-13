@@ -1,9 +1,7 @@
 import React from "react";
 import hive from "../images/WelcomeToTheHive.png";
-import beeIcon from "../images/bee.png";
-import honeycomb from "../images/honey-comb.png";
-import miniHive from "../images/sweet.png";
-import bee from "../images/laugh.png";
+import t1 from "../images/t1.png";
+import Programs from "./Programs";
 
 
 function welcome() {
@@ -34,29 +32,17 @@ function welcome() {
           </div>
         </div>
         </section>
-        <section>
-        <div className="bg-yellow-100 text-center px-40 py-40">
-          <div className="text-3xl font-black pb-20">Programs</div>
-          <div className="grid lg:grid-cols-4 gap-5 justify-center	">
-            <div className="bg-yellow-500 hover:bg-teal-200 p-20 rounded-3xl font-bold text-2xl">
-              <div><img src={beeIcon} alt="beeIcon" /></div>
-              One-on-One Tutoring</div>
-            <div className="bg-yellow-500 hover:bg-teal-200 p-20 rounded-3xl font-bold text-2xl">
-            <div><img src={honeycomb} alt="beeIcon" /></div>
-Parent Bootcamp</div>
-            <div className="bg-yellow-500 hover:bg-teal-200 p-20 rounded-3xl font-bold text-2xl">
-            <div><img src={miniHive} alt="beeIcon" /></div>
-              Mathematics in the Park  </div>
-            <div className="bg-yellow-500 hover:bg-teal-200 p-20 rounded-3xl font-bold text-2xl">
-            <div><img src={bee} alt="beeIcon" /></div>
+        <Programs />
+      <section className=" p-40 flex flex-col items-center bg-cyan-200">
+        <header className="text-center text-3xl font-bold pb-10">Testimonials</header>
+        <section className=" flex flex-row">
+        <img src={t1} alt="testimonal" className="w-[400px]"/>
+        <img src={t1} alt="testimonal" className="w-[400px] pt-10"/>
+        <img src={t1} alt="testimonal" className="w-[400px]"/>
+        <img src={t1} alt="testimonal" className="w-[400px]  pt-10"/>
 
-              Mathematician Toolbox </div>
-          </div>
-        </div>
-      </section>
-      <section className=" p-40 flex flex-col items-center">
-        <header className="text-center text-3xl font-bold pb-40">Testimonials</header>
-      <button className="text-center text-1xl font-bold bg-black text-white px-10 py-5 rounded-3xl">Become a Bee</button>
+        </section>
+      <button className="text-center text-1xl font-bold bg-black text-white px-20 py-5 rounded-3xl mt-16">Become a Bee</button>
 
       </section>
 
@@ -65,3 +51,5 @@ Parent Bootcamp</div>
 }
 
 export default welcome;
+
+
