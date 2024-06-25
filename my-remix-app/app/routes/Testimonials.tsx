@@ -1,3 +1,4 @@
+import { Link } from "@remix-run/react";
 import t1 from "../images/t1.png";
 import t2 from "../images/t2.png";
 import t3 from "../images/t3.png";
@@ -19,9 +20,9 @@ function Testimonials() {
                 <img src={t5} alt="testimonal" className="w-[600px] pt-10" />
 
             </section>
-            <button className="text-center text-1xl font-bold bg-black text-white px-20 py-5 rounded-3xl mt-16">
+            <Link to="/RegisterForm" className="text-center text-1xl font-bold bg-black text-white px-20 py-5 rounded-3xl mt-16">
                 Become a Bee
-            </button>
+            </Link>
         </section>
     );
 }
