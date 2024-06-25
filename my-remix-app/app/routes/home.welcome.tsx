@@ -11,7 +11,7 @@ function welcome() {
         <img src={hive} alt="hive" />
       </div>
       <section className="lg:p-20">
-        <div className="px-52">
+        <div className="p-20 lg:px-52">
           <div className="text-3xl font-black pb-5">What we're learning:</div>
           <div className="text-lg font-medium">
             <strong>What’s This “NEW MATH”?</strong> It is my personal belief that today’s “NEW
