@@ -1,7 +1,7 @@
 import React from "react";
 import hive from "../images/WelcomeToTheHive.png";
-import t1 from "../images/t1.png";
 import Programs from "./Programs";
+import Testimonials from "./Testimonials";
 
 
 function welcome() {
@@ -33,23 +33,10 @@ function welcome() {
         </div>
         </section>
         <Programs />
-      <section className=" p-40 flex flex-col items-center bg-cyan-200">
-        <header className="text-center text-3xl font-bold pb-10">Testimonials</header>
-        <section className=" flex flex-row">
-        <img src={t1} alt="testimonal" className="w-[400px]"/>
-        <img src={t1} alt="testimonal" className="w-[400px] pt-10"/>
-        <img src={t1} alt="testimonal" className="w-[400px]"/>
-        <img src={t1} alt="testimonal" className="w-[400px]  pt-10"/>
-
-        </section>
-      <button className="text-center text-1xl font-bold bg-black text-white px-20 py-5 rounded-3xl mt-16">Become a Bee</button>
-
-      </section>
-
+              <Testimonials />
     </>
   )
 }
 
 export default welcome;
-
 
