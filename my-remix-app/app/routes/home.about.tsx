@@ -29,8 +29,8 @@ function About() {
           <img src={header} alt="vision" />
         </div>
       </section>
-      <section className="bg-yellow-400 p-10 lg:p-32">
-        <div className="bg-white lg:h-[700px] p-10 lg:p-20 rounded-3xl shadow-2xl border-black border-4 ">
+      <section className="bg-slate-700 p-10 lg:p-32">
+        <div className="bg-white lg:h-[700px] p-10 lg:p-20 rounded-3xl shadow-2xl  ">
           <div className="text-black text-center font-bold text-2xl pb-5">About</div>
           <div className="text-black text-left text-lg px-5 lg:px-32">
             <div className="text-center pb-5 font-bold">My name is Brandi White AKA Your Favorite Math Teacher! </div>
