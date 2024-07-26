@@ -6,8 +6,8 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
-import stylesheet from "./tailwind.css";
-import Navigation from "./routes/navigation";
+import stylesheet from "./tailwind.css?url";
+//import Navigation from "./routes/navigation";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
